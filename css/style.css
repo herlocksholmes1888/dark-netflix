@@ -1,0 +1,48 @@
+body {
+        font-family: 'Poppins', sans-serif;
+        /* A adição de sans-serif garante que uma fonte será carregada a despeito deo navegador suportar ou não a fonte descrita entre apóstrofes */
+        max-width: 1280px;
+        margin: 0 auto;
+     }
+
+.conteudo {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: space-evenly;
+          }
+
+.informacoes {
+                background-color: blueviolet;
+             }
+
+.informacoes .logo {
+                      max-width: 360px;
+                      filter: invert(1);
+                      margin-bottom: 50px; 
+                    /* O filtro modifica a cor das imagens de acordo com seus opostos: preto se transforma em branco */
+                   }
+
+.informacoes .descricao {
+                           width: 40%;
+                           font-size: 25px;
+                           color: #ffffff;
+                           line-height: 30px;
+                        }
+
+.botoes-carrossel {
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                  }
+
+.botoes-carrossel .botao {
+                            width: 15px;
+                            height: 15px;
+                            border-radius: 50%;
+                            cursor: pointer;
+                         }
+
+.botoes-carrossel .botao.selecionado {
+                                        background-color: green;
+                                     }

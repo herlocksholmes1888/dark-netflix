@@ -1,0 +1,16 @@
+/* Esta página resetará alguns dos comandos de estilo que são impostos pelos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* O asterisco corrobora para que todas as tags tenham o mesmo comportamento */
+
+ul {
+     list-style: none;
+   }
+/* Exclui as duas bolinhas que ficam nas listas */
+
+a {
+    text-decoration: none;
+  }
