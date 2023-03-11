@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <!-- A tag acima torna a página compatível com o Microsoft Edge, que não suporta arquivos do tipo !DOCTYPE -->
+        <link rel="icon" href="http://img2.wikia.nocookie.net/__cb20140302142826/psi/images/b/b5/Triquetra.png">
+        <!-- A tag acima providencia um logotipo para a área de título da página -->
+        <title>Dark</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="carrossel">
+                <!-- div.carrossel entende que você quer criar uma classe dentro de uma div automaticamente -->
+                <img class="imagem" src="./src/imagens/jonas_jonas.jpg" alt="Jonas und der Fremde sitzen sich miteindander auf einer Bank.">
+                <img class="imagem" src="./src/imagens/enticing_event.jpg" alt="Jonas, Mikkel, Martha, Bartosz, Magnus und Franziska schreiten durch den Wald.">
+                <img class="imagem" src="./src/imagens/katharina_ulrich.jpg" alt="Katharina umarmt Ulrich nach Mikkel ist vermisst.">
+                <img class="imagem" src="./src/imagens/caverna.jpg" alt="Jonas ist mit Blick auf die Höhle wo Mikkel zuletzt gesehen wurde.">
+                <img class="imagem" src="./src/imagens/jonas_martha_bartosz.jpg" alt="Martha sieht Jonas, Bartosz an ihrer Seite.">
+            </div>
+            <div class="conteudo">
+                <div class="informacoes">
+                    <img class="logo" src="./src/imagens/logo.png" alt="Darks Logo">
+                    <!-- ./ automaticamente para a pasta em que o arquivo que está sendo alterado se encontra -->
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, deleniti mollitia illo eligendi, odio exercitationem eius similique vel ut harum deserunt iste veritatis nam ad doloremque vitae, nihil enim vero.</p>
+                </div>
+
+                <div class="botoes-carrossel">
+                    <button class="botao"></button>
+                    <button class="botao"></button>
+                    <button class="botao"></button>
+                    <button class="botao"></button>
+                    <button class="botao"></button>
+                    <button class="botao"></button>
+                </div>
+            </div>
+            <aside class="menu-lateral">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/luisa-frugoli-v-lopes-b5b533231/" target="_blank">
+                            <!-- target="_blank" faz com que o hyperlink seja aberto em outra aba -->
+                            <img src="./src/imagens/linkedin.png" alt="LinkedIns Logo" class="icon">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/herlocksholmes1888" target="_blank">
+                            <img src="./src/imagens/github.png" alt="GitHubs Logo" class="icon">
+                        </a>
+                    </li>
+                </ul>
+                <!-- A tag acima cria listas desordenadas, ou seja, que não priorizam uma ordem; para uma lista ordenada, usaríamos <ol> -->
+            </aside>
+        </main>
+    </body>
+</html>
