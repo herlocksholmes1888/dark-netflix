@@ -1,4 +1,3 @@
-/* Esta página resetará alguns dos comandos de estilo que são impostos pelos navegadores */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +8,6 @@
 ul {
      list-style: none;
    }
-/* Exclui as duas bolinhas que ficam nas listas */
 
 a {
     text-decoration: none;

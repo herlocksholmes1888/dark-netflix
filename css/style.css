@@ -1,6 +1,5 @@
 body {
         font-family: 'Poppins', sans-serif;
-        /* A adição de sans-serif garante que uma fonte será carregada a despeito deo navegador suportar ou não a fonte descrita entre apóstrofes */
         max-width: 1280px;
         margin: 0 auto;
      }
@@ -28,7 +27,6 @@ main:after {
                       max-width: 360px;
                       filter: invert(1);
                       margin-bottom: 50px; 
-                    /* O filtro modifica a cor das imagens de acordo com seus opostos: preto se transforma em branco */
                    }
 
 .informacoes .descricao {
